@@ -1,15 +1,46 @@
-# react-clean-architecture
+# Getting Started with Create React App
 
-"react-clean-architecture" is a repository intended to showcase the principles of Clean Architecture applied to a React project. Clean Architecture is a software design philosophy that emphasizes separation of concerns and maintainability by structuring applications into distinct layers of responsibility. In this repository, you will find a React application organized into layers that represent different aspects of the system's functionality, with clear boundaries between them.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Key features of this repository include:
+## Available Scripts
 
-Clean Separation of Concerns: The codebase is organized into layers, including the domain layer, application layer, infrastructure layer, and presentation layer. Each layer has a well-defined responsibility and interacts with other layers through defined interfaces, promoting modularity and testability.
+In the project directory, you can run:
 
-Vertical Slices Architecture: The project is structured using the Vertical Slices Architecture pattern, where each feature or user story is implemented as a vertical slice that spans across all layers of the application. This approach ensures that related code is grouped together, facilitating easier navigation and maintenance.
+### `npm start`
 
-Dependency Inversion Principle (DIP): Dependencies are inverted to ensure that higher-level layers do not depend on lower-level details. Interfaces are used to define contracts between layers, allowing for flexibility and easier substitution of components.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Dependency Injection: Facilitates flexible component composition by decoupling dependencies and promoting modularity.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-By exploring the "react-clean-architecture" repository, developers can gain insights into how Clean Architecture principles can be applied to React applications, leading to more maintainable, scalable, and robust software systems.
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
